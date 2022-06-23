@@ -33,18 +33,22 @@ namespace BinaryTree
             int Size = BinaryTree.GetSize();
             Console.WriteLine(Size);
 
+            //UC3:Serach node through the tree
+
+            bool result = BinaryTree.SearchKey(63);
+            Console.WriteLine(result);
+
 
         }
     }
 }
 
-//UC-2
-//Ability to create the
-//binary tree shown in the
-//figure
-//- Check if all are added with using size
-//method in Binary Tree
+//UC-3
+//Ability to search 63 in the Binary Tree
+//- Implement Search method and recursively search left or right nodes to find 63
 
 //Result
 //Welcome To Binary Search Tree Problem
-//13
+//UC_1 = Creating BST, no output.
+//UC_2 =  13
+//UC_3 = True
