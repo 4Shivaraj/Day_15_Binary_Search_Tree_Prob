@@ -28,18 +28,6 @@ namespace BinaryTree
             BinaryTree.AddNode(65);
             BinaryTree.AddNode(3);
 
-            ///UC2:Find the size of tree
-
-            int Size = BinaryTree.GetSize();
-            Console.WriteLine(Size);
-
-
-            ///UC3:Serach node through the tree
-
-            bool result = BinaryTree.SearchKey(63);
-            Console.WriteLine(result);
-
-
         }
     }
 }
